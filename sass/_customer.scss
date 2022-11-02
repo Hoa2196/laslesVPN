@@ -1,0 +1,24 @@
+.customer {
+   .boxed {
+    margin-bottom: 60px;
+   }
+   .heading {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+   } 
+   &-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 0 50px;
+   }
+   &-item {
+      border: 2px solid #dddddd;
+      // box-sizing: border-box;
+      border-radius: 10px;
+      padding: 30px;
+   }
+   &-top {
+      margin-bottom: 20px;
+   }
+}

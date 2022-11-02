@@ -1,0 +1,26 @@
+.network {
+    .heading {
+        max-width: 383px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text {
+        margin-bottom: 156px;
+    }
+    &-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 36px;
+    }
+}
+
+.partner {
+    margin-bottom: 50px;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 60px;
+    }
+}
